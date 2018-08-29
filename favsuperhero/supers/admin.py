@@ -1,3 +1,5 @@
 from django.contrib import admin
+from supers.models import User, Superhero
 
-# Register your models here.
+admin.site.register(User)
+admin.site.register(Superhero)
